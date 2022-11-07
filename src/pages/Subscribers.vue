@@ -1,15 +1,12 @@
 <template>
   <div>
+    Subscribers page content
 
   </div>
 </template>
 
-<script lang="ts">
-import {defineComponent} from "vue";
+<script setup lang="ts">
 
-export default defineComponent({
-  name: 'SubscribersPage'
-})
 </script>
 
 <style scoped>

@@ -9,32 +9,32 @@ import Subscribers from "@/pages/Subscribers.vue";
 export const routes: IRoute[] = [
     {
         path: '/advantages',
-        name: 'advantages',
+        name: 'Преимущества Tele2',
         component: Advantages
     },
     {
         path: '/rates',
-        name: 'rates',
+        name: 'Тарифы',
         component: Rates
     },
     {
         path: '/stocks',
-        name: 'stocks',
+        name: 'Акции и спецпредложения',
         component: Stocks
     },
     {
         path: '/promo',
-        name: 'promo',
+        name: 'Промотариф Tele2',
         component: Promo
     },
     {
         path: '/esim',
-        name: 'esim',
+        name: 'Технология eSIM',
         component: EsimTech
     },
     {
         path: '/subscribers',
-        name: 'subscribers',
+        name: 'Подключение нового абонента',
         component: Subscribers
     },
 ]

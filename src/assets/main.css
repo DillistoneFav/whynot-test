@@ -3,9 +3,9 @@
 #app {
   width: 100%;
   height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-  background: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 *{
@@ -13,3 +13,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 1112px;
+  width: 100%;
+}
+
+@media (max-width: 1150px) {
+  .container{
+    padding: 0 1rem;
+  }
+}
+
+
