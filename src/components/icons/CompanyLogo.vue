@@ -1,5 +1,5 @@
 <template>
-  <svg viewBox="0 0 90 34" width="90" height="34" class="header-navbar-logo">
+  <svg viewBox="0 0 90 34" class="header-navbar-logo">
     <use xlink:href="#darkLogoFill" transform="translate(.6 .42)" fill="#fff"></use>
     <defs>
       <path id="darkLogoFill" fill-rule="evenodd"

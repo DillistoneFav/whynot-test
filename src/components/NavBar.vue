@@ -2,8 +2,8 @@
   <div class="navbarContainer">
     <div class="headerTop">
       <div class="headerTopContent">
-        <router-link to="/">
-          <CompanyLogo alt="company logo" class="companyLogo"/>
+        <router-link to="/" class="companyLogo">
+          <CompanyLogo alt="company logo"/>
         </router-link>
         <div class="rightSideHeader">
           <div class="region">
