@@ -1,7 +1,7 @@
 <template>
   <div class="navbarContainer">
     <div class="headerTop">
-      <div class="container headerTopContent">
+      <div class="headerTopContent">
         <router-link to="/">
           <CompanyLogo alt="company logo" class="companyLogo"/>
         </router-link>
@@ -10,7 +10,7 @@
             <LocationIcon/>
             <div class="regionName">{{region}}</div>
           </div>
-          <div class="messagesIndication" @click="clearMessagesHandler">
+          <button class="messagesIndication" @click="clearMessagesHandler">
             <Bell
               class="bell"
               :class="{'animated': messages.length}"
@@ -20,12 +20,12 @@
               v-if="messages.length"
             >
             </div>
-          </div>
-          <div class="menuToggleButton" @click="messagesStore.changeMenuVisibility()" :class="{'menuButtonOpened': menuVisibility}">
+          </button>
+          <button class="menuToggleButton" @click="messagesStore.changeMenuVisibility()" :class="{'menuButtonOpened': menuVisibility}">
             <span></span>
             <span></span>
             <span></span>
-          </div>
+          </button>
         </div>
       </div>
     </div>

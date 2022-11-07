@@ -5,11 +5,12 @@
   .headerTop{
     width: 100%;
     background: #1F2229;
-    height: 40px;
+    padding: 8px 0 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     .headerTopContent{
+      width: 1112px;
       display: flex;
       justify-content: space-between;
       .companyLogo{
@@ -25,6 +26,8 @@
           display: flex;
           align-items: center;
           cursor: pointer;
+          border: none;
+          background: none;
           .bell{
             height: 25px;
             width: 25px;
@@ -48,7 +51,7 @@
   }
 
   .region{
-    margin-right: 40px;
+    margin-right: 37px;
     display: flex;
     align-items: center;
     .regionName{
@@ -72,6 +75,7 @@
       display: flex;
       align-items: center;
       border-bottom: 2px solid #fff;
+      padding: 15px 0 12px 0;
     }
     .active{
       color: var(--header-routes-link-color);
@@ -87,6 +91,9 @@
   position: relative;
   margin-left: 22px;
   cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
   span{
     position: absolute;
     width: 18px;
@@ -133,7 +140,7 @@
 @media (max-width: 1000px) {
   .navbarContainer{
     .headerTop{
-      height: 45px;
+      padding: 13px 18px 14px 18px;
       .region{
         display: none !important;
       }
@@ -151,10 +158,12 @@
       height: 100vh;
       background: #fff;
       .link{
-        margin-top: 1rem;
+        margin: 0 15px 0 15px;
         padding-bottom: 8px;
         border-bottom: 1px solid #EDEDED;
-        margin-right: 0;
+        &:first-child{
+          margin-top: 24px;
+        }
       }
       .active{
         border-bottom: 1px solid #1F2229;
@@ -164,10 +173,13 @@
         height: 56px;
         position: absolute;
         width: 100%;
-        bottom: 28px;
+        bottom: 44px;
         left: 0;
-        padding-left: 16px;
+        padding-left: 19.5px;
         background: #F3F5F6;
+        .regionName{
+          margin-left: 8.5px;
+        }
       }
     }
   }
