@@ -146,6 +146,15 @@
         width: 48px !important;
         height: 18px !important;
       }
+      .bell{
+        height: 18px !important;
+        width: 19px !important;
+        transform: rotate(-25deg);
+      }
+      .messagesCount{
+        right: 3px !important;
+        top: 3px !important;
+      }
       .region{
         display: none !important;
       }
